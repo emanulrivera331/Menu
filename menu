@@ -1,0 +1,44 @@
+using System;
+using System.collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threadin.Tasks;
+namespace menuopciones
+{
+    class program
+    {
+        static void Main (string[] args)
+        {
+            int opcion = 0; 
+            do
+            {
+                console.writeLine("Menu de opciones");
+                console.writeLine("\n"+ 
+                "\n 1.- Nombre" +
+                "\n 2.- Pasatiempo " +
+                "\n 3.-salir \n");
+                console.writeLine("digita una opcion:");
+                opcion = convert.ToInt32(console.ReadLine());
+                switch (opcion)
+                {
+                    case 1:
+                    console.writeLine("Mi nombre es Rivera");
+                    breaak;
+                    case 2:
+                    console.writeLine("Mi pasatiempo favorito es jugar futbol");
+                    breaak;
+                    case 3:
+                    console.writeLine("saliendo de el programa");
+                    breaak;
+                    console.writeLine("DIJITA UNA OPCION VALIDA");
+                    breaak;
+                    default:
+                }
+                console.Readkey();
+            } while (opcion != 3);
+       
+        } 
+     //Emanuel rivera Méndez cruz
+    }
+  
+}
